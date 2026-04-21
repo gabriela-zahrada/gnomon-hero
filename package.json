@@ -1,0 +1,11 @@
+{
+  "name": "gnomon-hero-poc",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Technical proof-of-concept for circular sundial geometry with movable gnomon",
+  "scripts": {
+    "build:sample": "node src/cli/generate-sample.js",
+    "test": "node --test",
+    "start": "node src/server.js"
+  }
+}
